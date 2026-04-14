@@ -1,20 +1,24 @@
-# Snack Dealer Management System
+# 🍿 Snack Dealer Management System
 
-A Java Swing desktop application to manage snack inventory.
+A Java Swing desktop application to manage snack inventory with MySQL database.
 
-## Features
+## 📸 Screenshot
+(upload a screenshot of your app here)
+
+## ✨ Features
 - Add snacks with name, price, category and stock
-- Delete snacks
+- Delete snacks with confirmation
 - Update stock quantity
 - View all snacks in a table
+- Total item counter
 
-## Technologies Used
+## 🛠️ Technologies Used
 - Java Swing (GUI)
-- MySQL (Database)
+- MySQL 8.0 (Database)
 - JDBC (Database Connection)
 
-## Database Setup
-Run this SQL:
+## ⚙️ Database Setup
+```sql
 create database snackdb;
 use snackdb;
 create table snacks(
@@ -24,7 +28,14 @@ price int,
 category varchar(50),
 stock_quantity int
 );
+```
 
-## How to Run
+## ▶️ How to Run
+```bash
 javac -cp ".;mysql-connector-j-8.0.33.jar" java_mini_project/connect.java java_mini_project/SnackDealerManagement.java
+
 java -cp ".;mysql-connector-j-8.0.33.jar" java_mini_project.SnackDealerManagement
+```
+
+## 👤 Author
+roongtakhushi
