@@ -2,9 +2,6 @@
 
 A Java Swing desktop application to manage snack inventory with MySQL database.
 
-## 📸 Screenshot
-(upload a screenshot of your app here)
-
 ## ✨ Features
 - Add snacks with name, price, category and stock
 - Delete snacks with confirmation
