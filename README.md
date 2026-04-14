@@ -38,4 +38,4 @@ java -cp ".;mysql-connector-j-8.0.33.jar" java_mini_project.SnackDealerManagemen
 ```
 
 ## 👤 Author
-roongtakhushi
+Khushi Roongta
