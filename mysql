@@ -1,0 +1,10 @@
+create database snackdb;
+use snackdb;
+create table snacks(
+id int primary key auto_increment,
+snack_name varchar(50),
+price int,
+category varchar(50),
+stock_quantity int
+);
+exit;
